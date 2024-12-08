@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\appVlad.bundle.scp.css",
+      "PackagePath": "staticwebassets\\appVlad.wog851etp6.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.appVlad.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.appVlad.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.appVlad.props",
+      "PackagePath": "build\\appVlad.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.appVlad.props",
+      "PackagePath": "buildMultiTargeting\\appVlad.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.appVlad.props",
+      "PackagePath": "buildTransitive\\appVlad.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

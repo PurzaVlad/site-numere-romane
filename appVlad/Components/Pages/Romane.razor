@@ -1,0 +1,447 @@
+@using System;
+@using System.Collections.Generic;
+
+@page "/romane"
+@attribute [StreamRendering]
+@rendermode InteractiveServer
+
+<PageTitle>Numere Romane</PageTitle>
+
+<h1>Numere Romane</h1>
+
+<p>Input your numbers and your ecuation.</p>
+
+<div class="input-container">
+    <InputText id="numar1" @bind-Value="ProgramNou.Numar1" class="form-control" />
+
+    <InputSelect id="ecuatie" @bind-Value="ProgramNou.Ecuatie" class="form-control custom-select">
+        <option value="+">(+)</option>
+        <option value="-">(-)</option>
+        <option value="*">(*)</option>
+        <option value="/">(/)</option>
+    </InputSelect>
+
+    <InputText id="numar2" @bind-Value="ProgramNou.Numar2" class="form-control" />
+
+    <button class="btn btn-primary" @onclick="ProgramNou.CalculateResult">Calculeaza!</button>
+
+</div>
+
+<p>Result: @ProgramNou.rez</p>
+
+<style>
+    .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Spacing between input fields */
+    }
+
+    .form-control {
+        height: 40px; /* Set height for consistency */
+        width:100px;
+    }
+
+    .custom-select {
+        width: 60px; /* Set a smaller width for the select dropdown */
+        height: 40px; /* Make the height equal to the width for a square shape */
+        padding: 0;
+        text-align: center; /* Center the text within the select */
+        font-size: 18px; /* Adjust the font size for better fit */
+    }
+
+</style>
+
+@code {
+    private Program ProgramNou {get; set;} = new Program();
+    class Program{
+        public string Numar1 {get; set;} = "";
+        public string Numar2 {get; set;} = "";
+        public string Ecuatie {get; set;} = "";
+        public string rez {get; set;} = "";
+        public static Dictionary <char, int> ordineCaractere = new Dictionary <char, int> { {'I', 1}, {'V', 2}, {'X', 3}, {'L', 4}, {'C', 5}, {'D', 6}, {'M', 7}};
+        public static List <char> ordineChei = new List <char> { {'0'}, {'I'}, {'V'}, {'X'}, {'L'}, {'C'}, {'D'}, {'M'}};
+        static Dictionary<char, int> CreareDictionar(string numarRoman) {
+            int len = numarRoman.Length;
+            Dictionary<char, int> aparitii = new Dictionary<char, int>() { {'I', 0}, {'i', 0}, {'V', 0}, {'v', 0}, {'X', 0}, {'x', 0}, {'L', 0}, {'l', 0}, {'C', 0}, {'c', 0}, {'D', 0}, {'d', 0}, {'M', 0}, {'m', 0}};
+
+            for(int i = len-1; i >= 0; i--){
+                aparitii[numarRoman[i]] = 0;
+            }
+            
+            for(int i = 0; i < len; i++){      
+                if(i == len-1){
+                    aparitii[numarRoman[i]]++;
+                }  
+                else{
+                    if(ordineCaractere[numarRoman[i]] < ordineCaractere[numarRoman[i+1]]){
+                        aparitii[Char.ToLower(numarRoman[i])]++;
+                    }
+                    else{
+                        aparitii[numarRoman[i]]++;
+                    }
+                }
+                
+            }
+
+            return aparitii;
+        }
+        static Dictionary<char, int> CreareDictionarScadere(string numarRoman) {
+            int len = numarRoman.Length;
+            Dictionary<char, int> aparitii = new Dictionary<char, int>() { {'I', 0}, {'i', 0}, {'V', 0}, {'v', 0}, {'X', 0}, {'x', 0}, {'L', 0}, {'l', 0}, {'C', 0}, {'c', 0}, {'D', 0}, {'d', 0}, {'M', 0}, {'m', 0}};
+
+            for(int i = len-1; i >= 0; i--){
+                aparitii[numarRoman[i]] = 0;
+            }
+            
+            for(int i = 0; i < len; i++){      
+                if(i == len-1){
+                        aparitii[numarRoman[i]]--;
+                }  
+                else{
+                    if(ordineCaractere[numarRoman[i]] < ordineCaractere[numarRoman[i+1]]){
+                        aparitii[Char.ToLower(numarRoman[i])]--;
+                    }
+                    else{
+                        aparitii[numarRoman[i]]--;
+                    }
+                }
+                
+            }
+
+            return aparitii;
+        }
+        static Dictionary <char, int> AdunareDictionare(Dictionary <char, int> dict1, Dictionary <char, int> dict2) {
+            Dictionary <char, int> dictSuma = dict1;
+
+            foreach(var key in dict2) {
+                if(!dict1.ContainsKey(key.Key)) {
+                    dictSuma[key.Key] = key.Value;
+                }
+                else {
+                    dictSuma[key.Key] += key.Value;
+                }
+            }
+
+            return dictSuma;
+        }
+        static int Corespondent (char element) {
+            return ordineCaractere[element];
+        }
+        static Dictionary <char, int> EliminareLitereMici(Dictionary <char, int> dict) {
+            foreach(var key in dict) {
+                if(Char.IsLower(key.Key) && dict[key.Key] != 0 && ordineCaractere[Char.ToUpper(key.Key)] < 6) {
+                    while(dict[key.Key] > 0){
+                        dict[Char.ToUpper(key.Key)] +=4;
+
+                        int corespondent = Corespondent(Char.ToUpper(key.Key));
+
+                        if(dict[ordineChei[corespondent+1]] > 0) {
+                            dict[ordineChei[corespondent+1]]--;
+                            dict[key.Key]--;
+                        }
+                        else {
+                            dict[ordineChei[corespondent+1]]++;
+                            dict[ordineChei[corespondent+2]]--;
+                            dict[key.Key]--;
+                        }
+
+                        
+                    }
+                }
+            }
+
+            return dict;
+        }
+        static Dictionary <char, int> EliminareMinusuri(Dictionary <char, int> dict) {
+            foreach(var key in dict) {
+                if(dict[key.Key] < 0 && ordineCaractere[Char.ToUpper(key.Key)] < 7) {
+                    if(Char.IsLower(key.Key)) {
+                        dict[Char.ToUpper(key.Key)] -= dict[key.Key];
+                        dict[key.Key] = 0;
+                    }
+                    else {
+                        if(ordineCaractere[Char.ToUpper(key.Key)] % 2 == 0){
+                            dict[key.Key] += 2;
+                            int corespondent = Corespondent(Char.ToUpper(key.Key));
+                            dict[ordineChei[corespondent+1]]--;
+                        }
+                        else {
+                            dict[key.Key] += 5;
+                            int corespondent = Corespondent(Char.ToUpper(key.Key));
+                            dict[ordineChei[corespondent+1]]--;
+                        }
+                    }
+                }
+            }
+            
+            return dict;
+        }
+        static Dictionary <char, int> TransformareDictionar(Dictionary <char, int> dict) {
+            int ok1 = 1;
+
+            while(ok1 != 0) {
+                ok1 = 0;
+
+                int ok = 1;
+                while(ok != 0) {
+                    foreach(var key in dict) {
+                        ok = 0;
+                        if(ordineCaractere.ContainsKey(key.Key) && ordineCaractere[key.Key] % 2 == 1 && ordineCaractere[key.Key] < 7) {
+                            while(dict[key.Key] > 4) {
+                                dict[key.Key] -= 5;
+
+                                int corespondent = Corespondent(key.Key);
+                                dict[ordineChei[corespondent+1]] ++;
+
+                                ok++;
+                                ok1++;
+                            }
+                        }
+                    }
+                }
+    
+                ok = 1;
+                while(ok != 0) {
+                    foreach(var key in dict) {
+                        ok = 0;
+                        if(ordineCaractere.ContainsKey(key.Key) && ordineCaractere[key.Key] % 2 == 0) {
+                            while(dict[key.Key] > 1) {
+                                dict[key.Key] -= 2;
+
+                                int corespondent = Corespondent(key.Key);
+                                dict[ordineChei[corespondent + 1]] ++;
+
+                                ok++;
+                                ok1++;
+                            }
+                        }
+                    }
+                }
+            }
+            return dict;
+        }
+        static Dictionary <char, int> AdaugareLitereMici(Dictionary <char, int> dict) {
+            int ok = 1;
+            while(ok != 0) {
+                foreach(var key in dict.Reverse()) {
+                    ok = 0;
+                    if(ordineCaractere.ContainsKey(key.Key) && ordineCaractere[key.Key] % 2 == 1 && ordineCaractere[key.Key] < 7) {
+                        if(ordineCaractere[key.Key] > 2 && dict[Char.ToLower(ordineChei[ordineCaractere[key.Key]-2])] != 0) {
+                            if(dict[key.Key] == 5 && dict[ordineChei[ordineCaractere[key.Key]+1]] != 0) {
+                                dict[key.Key] -= 4;
+                                dict[Char.ToLower(key.Key)]++;
+
+                                ok++;
+                                int corespondent = Corespondent(key.Key);
+                                dict[ordineChei[corespondent+1]] --;
+                                dict[ordineChei[corespondent+2]] += 1;
+                            }
+
+                            if(dict[key.Key] == 5 && dict[ordineChei[ordineCaractere[key.Key]+1]] == 0) {
+                                dict[key.Key] -= 4;
+                                dict[Char.ToLower(key.Key)]++;
+
+                                ok++;
+                                int corespondent = Corespondent(key.Key);
+                                dict[ordineChei[corespondent+1]] += 1;
+                            }
+                        }
+                        else {
+                            if(dict[key.Key] == 4 && dict[ordineChei[ordineCaractere[key.Key]+1]] != 0) {
+                                dict[key.Key] -= 4;
+                                dict[Char.ToLower(key.Key)]++;
+
+                                ok++;
+                                int corespondent = Corespondent(key.Key);
+                                dict[ordineChei[corespondent+1]] --;
+                                dict[ordineChei[corespondent+2]] += 1;
+                            }
+
+                            if(dict[key.Key] == 4 && dict[ordineChei[ordineCaractere[key.Key]+1]] == 0) {
+                                dict[key.Key] -= 4;
+                                dict[Char.ToLower(key.Key)]++;
+
+                                ok++;
+                                int corespondent = Corespondent(key.Key);
+                                dict[ordineChei[corespondent+1]] += 1;
+                            }
+                        }
+                    }
+                }
+            }
+
+            return dict;
+        }
+        static void AfisareDictionar(Dictionary <char,int> dict) {
+            foreach (var kvp in dict)
+            {
+                Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+            }
+        }
+        static string AfisareRoman(Dictionary <char,int> dict) {
+            string rez = "";
+
+            foreach(var key in dict) {
+                
+                if(Char.IsUpper(key.Key)) {
+                    while(dict[key.Key] > 0) {
+                        rez = $"{key.Key}" + rez;
+                        dict[key.Key]--;
+                    }
+                }
+
+                else{ 
+                    while(dict[key.Key] > 0) {
+                        int corespondent = Corespondent(Char.ToUpper(key.Key));
+
+                        if(dict[ordineChei[corespondent+1]] != 0) {
+                            rez = $"{Char.ToUpper(key.Key)}" + $"{ordineChei[corespondent+1]}" + rez;
+                            dict[ordineChei[corespondent+1]]--;
+                        }
+
+                        else {
+                            rez = $"{Char.ToUpper(key.Key)}" + $"{ordineChei[corespondent+2]}" + rez;
+                            dict[ordineChei[corespondent+2]]--;
+                        }
+                        
+                        dict[key.Key]--;
+                    }   
+                }
+            }
+            
+            return rez;
+        }
+        static string AdunareNumere(string numarRoman1, string numarRoman2) {
+            Dictionary <char, int> aparitiiRoman1 = CreareDictionar(numarRoman1);
+            Dictionary <char, int> aparitiiRoman2 = CreareDictionar(numarRoman2);
+            Dictionary <char, int> aparitiiAdunate = AdunareDictionare(aparitiiRoman1, aparitiiRoman2);
+
+            aparitiiAdunate = EliminareLitereMici(aparitiiAdunate);
+
+            aparitiiAdunate = TransformareDictionar(aparitiiAdunate);
+            
+            aparitiiAdunate = AdaugareLitereMici(aparitiiAdunate);
+            
+            return AfisareRoman(aparitiiAdunate);
+        }
+        static string ScadereNumere(string numarRoman1, string numarRoman2) {
+
+            Dictionary <char, int> aparitiiRoman1 = CreareDictionar(numarRoman1);
+            Dictionary <char, int> aparitiiRoman2 = CreareDictionarScadere(numarRoman2);
+            Dictionary <char, int> aparitiiScazute = AdunareDictionare(aparitiiRoman1, aparitiiRoman2);
+
+            aparitiiScazute = EliminareMinusuri(aparitiiScazute);
+
+            aparitiiScazute = EliminareLitereMici(aparitiiScazute);
+            
+            aparitiiScazute = TransformareDictionar(aparitiiScazute);
+            
+            aparitiiScazute = AdaugareLitereMici(aparitiiScazute);
+
+            return AfisareRoman(aparitiiScazute);
+        }
+        static string InmultireNumere(string numarRoman1, string numarRoman2) {
+
+            string rez = numarRoman1;
+            string contor = "I";
+
+            if(numarRoman2 == "") {
+                return "";
+            }
+
+            if(numarRoman2 == "I") {
+                return numarRoman1;
+            }
+
+            do {
+                rez = AdunareNumere(rez, numarRoman1);
+                contor = AdunareNumere(contor, "I");
+            } while(contor != numarRoman2); 
+
+            return rez;
+        }
+        static string ImpartireNumere(string numarRoman1, string numarRoman2) {
+
+            string contor = "";
+
+            if (numarRoman2 == "") {
+                return "Imposibil!";
+            }
+
+            if(numarRoman2 == "I") {
+                return numarRoman1;
+            }
+            
+            if(numarRoman1 == numarRoman2) {
+                return "I";
+            }
+
+            string inlocuitor1 = numarRoman1;
+            string inlocuitor2 = numarRoman2;
+
+            int ok = 0;
+
+            while(ok == 0) {
+                inlocuitor1 = ScadereNumere(inlocuitor1, "I");
+                inlocuitor2 = ScadereNumere(inlocuitor2, "I");
+                if(inlocuitor1 == "") {
+                    return "";
+                }
+                else if(inlocuitor2 == "") {
+                    ok = 1;
+                }
+            }
+
+            if(inlocuitor1 == "") {
+                return "";
+            }
+
+            while(numarRoman1 != "") {
+
+                string contor1 = "";
+
+                do{
+                    numarRoman1 = ScadereNumere(numarRoman1, "I");
+                    contor1 = AdunareNumere(contor1, "I");
+                    if(numarRoman1 == "" && contor1 != numarRoman2){
+                        contor = ScadereNumere(contor, "I");
+                        break;
+                    }
+                } while(contor1 != numarRoman2);
+
+                contor = AdunareNumere(contor, "I");
+            }
+
+            return contor;
+        }
+        public void CalculateResult()
+        {
+            try
+            {
+                switch (Ecuatie)
+                {
+                    case "+":
+                        rez = AdunareNumere(Numar1, Numar2);  
+                        break;
+                    case "-":
+                        rez = ScadereNumere(Numar1, Numar2);
+                        break;
+                    case "*":
+                        rez = InmultireNumere(Numar1, Numar2);
+                        break;
+                    case "/":
+                        rez = ImpartireNumere(Numar1, Numar2); 
+                        break;
+                    default:
+                        rez = "Invalid operation";
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                rez = $"Error: {ex.Message}";
+            }
+        }
+    }
+}

@@ -1,0 +1,1825 @@
+{
+  "Version": 1,
+  "Hash": "/bwsP4CL8qtZR/CVNAIBBJdLPJ6qDGm248TlWhByn+o=",
+  "Source": "appVlad",
+  "BasePath": "_content/appVlad",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "appVlad\\wwwroot",
+      "Source": "appVlad",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\",
+      "BasePath": "_content/appVlad",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\4jb8cl3y0h-wog851etp6.gz",
+      "SourceId": "appVlad",
+      "SourceType": "Computed",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "appVlad#[.{fingerprint=wog851etp6}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\bundle\\appVlad.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bp1h6kavwy",
+      "Integrity": "3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\bundle\\appVlad.styles.css"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\kj6o6p670q-khy4lop6wu.gz",
+      "SourceId": "appVlad",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "app#[.{fingerprint=khy4lop6wu}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "596e5mu3rg",
+      "Integrity": "KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tb99wtaia8-bpk8xqwxhs.gz",
+      "SourceId": "appVlad",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint=bpk8xqwxhs}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8m0i91lda7",
+      "Integrity": "YE8mrumnFzCPf1H7Kt7DiQNHc+iSomAdAv4mKeRAV7M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tcuuc7e5x0-wog851etp6.gz",
+      "SourceId": "appVlad",
+      "SourceType": "Computed",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "appVlad#[.{fingerprint=wog851etp6}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\appVlad.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bp1h6kavwy",
+      "Integrity": "3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\appVlad.bundle.scp.css"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\zfju9f3rb9-8inm30yfxf.gz",
+      "SourceId": "appVlad",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ndsngf4xxc",
+      "Integrity": "leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\bundle\\appVlad.styles.css",
+      "SourceId": "appVlad",
+      "SourceType": "Computed",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "appVlad#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "wog851etp6",
+      "Integrity": "gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\bundle\\appVlad.styles.css"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\appVlad.bundle.scp.css",
+      "SourceId": "appVlad",
+      "SourceType": "Computed",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "appVlad#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "wog851etp6",
+      "Integrity": "gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\appVlad.bundle.scp.css"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\app.css",
+      "SourceId": "appVlad",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "khy4lop6wu",
+      "Integrity": "aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "appVlad",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "appVlad",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\favicon.png",
+      "SourceId": "appVlad",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\",
+      "BasePath": "_content/appVlad",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\kj6o6p670q-khy4lop6wu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000636132316"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\kj6o6p670q-khy4lop6wu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0="
+        }
+      ]
+    },
+    {
+      "Route": "app.khy4lop6wu.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\kj6o6p670q-khy4lop6wu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000636132316"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khy4lop6wu"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+        }
+      ]
+    },
+    {
+      "Route": "app.khy4lop6wu.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khy4lop6wu"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+        }
+      ]
+    },
+    {
+      "Route": "app.khy4lop6wu.css.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\kj6o6p670q-khy4lop6wu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khy4lop6wu"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.bundle.scp.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tcuuc7e5x0-wog851etp6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000563063063"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.bundle.scp.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\appVlad.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.bundle.scp.css.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tcuuc7e5x0-wog851etp6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.styles.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\4jb8cl3y0h-wog851etp6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000563063063"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.styles.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\bundle\\appVlad.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.styles.css.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\4jb8cl3y0h-wog851etp6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.wog851etp6.bundle.scp.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tcuuc7e5x0-wog851etp6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000563063063"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wog851etp6"
+        },
+        {
+          "Name": "label",
+          "Value": "appVlad.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.wog851etp6.bundle.scp.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\appVlad.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wog851etp6"
+        },
+        {
+          "Name": "label",
+          "Value": "appVlad.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.wog851etp6.bundle.scp.css.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tcuuc7e5x0-wog851etp6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wog851etp6"
+        },
+        {
+          "Name": "label",
+          "Value": "appVlad.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.wog851etp6.styles.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\4jb8cl3y0h-wog851etp6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000563063063"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wog851etp6"
+        },
+        {
+          "Name": "label",
+          "Value": "appVlad.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.wog851etp6.styles.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\scopedcss\\bundle\\appVlad.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wog851etp6"
+        },
+        {
+          "Name": "label",
+          "Value": "appVlad.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gO+hjeETYzVN9fU3NAtU73HwHFVR5iPGW9Q0tE39Agg="
+        }
+      ]
+    },
+    {
+      "Route": "appVlad.wog851etp6.styles.css.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\4jb8cl3y0h-wog851etp6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wog851etp6"
+        },
+        {
+          "Name": "label",
+          "Value": "appVlad.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3xjzvyhelC5S+MgNcsp5gl6ypuKAhFN/QAtcsfQiPAA="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tb99wtaia8-bpk8xqwxhs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041891835"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23870"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YE8mrumnFzCPf1H7Kt7DiQNHc+iSomAdAv4mKeRAV7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tb99wtaia8-bpk8xqwxhs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YE8mrumnFzCPf1H7Kt7DiQNHc+iSomAdAv4mKeRAV7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YE8mrumnFzCPf1H7Kt7DiQNHc+iSomAdAv4mKeRAV7M="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tb99wtaia8-bpk8xqwxhs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041891835"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23870"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YE8mrumnFzCPf1H7Kt7DiQNHc+iSomAdAv4mKeRAV7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\zfju9f3rb9-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013392977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74665"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\zfju9f3rb9-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-gzip"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\tb99wtaia8-bpk8xqwxhs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YE8mrumnFzCPf1H7Kt7DiQNHc+iSomAdAv4mKeRAV7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YE8mrumnFzCPf1H7Kt7DiQNHc+iSomAdAv4mKeRAV7M="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\zfju9f3rb9-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013392977"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74665"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map.gz",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\obj\\Debug\\net9.0\\compressed\\zfju9f3rb9-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-gzip"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-leQh2chAgQ3l5kVsqn2AJ1e5jzReqniQ1IqyMs2lKGE="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "c:\\Users\\marab\\OneDrive\\Desktop\\vlad\\appVlad\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 19:23:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    }
+  ]
+}
